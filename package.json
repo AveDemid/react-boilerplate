@@ -23,9 +23,18 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
+  "browserslist": [
+    "> 0.2%",
+    "not op_mini all",
+    "defaults"
+  ],
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.5",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.1.4",
     "html-webpack-plugin": "^4.0.0-beta.8",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
