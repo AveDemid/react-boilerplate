@@ -19,15 +19,17 @@
     "url": "https://github.com/AveDemid/react-boilerplate/issues"
   },
   "homepage": "https://github.com/AveDemid/react-boilerplate#readme",
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
   "browserslist": [
     "> 0.2%",
     "not op_mini all",
     "defaults"
   ],
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "styled-reboot": "^4.0.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -37,7 +39,6 @@
     "babel-loader": "^8.0.6",
     "core-js": "^3.1.4",
     "html-webpack-plugin": "^4.0.0-beta.8",
-    "styled-components": "^4.3.2",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.38.0",
