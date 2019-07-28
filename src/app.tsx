@@ -1,9 +1,11 @@
 import React from "react";
+import { GlobalStyles } from "./global-styles";
 
 export const App = () => {
   return (
-    <div>
-      <h1>Hello from App</h1>
-    </div>
+    <>
+      <GlobalStyles />
+      <h1>Hello world</h1>
+    </>
   );
 };
