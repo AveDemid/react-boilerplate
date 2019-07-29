@@ -25,6 +25,8 @@
     "defaults"
   ],
   "dependencies": {
+    "effector": "^20.1.1",
+    "effector-react": "^20.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-config": "^5.0.1",
