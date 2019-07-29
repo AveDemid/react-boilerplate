@@ -17,6 +17,9 @@ module.exports = {
           },
           {
             loader: "ts-loader"
+          },
+          {
+            loader: "eslint-loader"
           }
         ]
       }
