@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   parser: "@typescript-eslint/parser",
-  extends: [
+  extends: [    
     //  eslint
     "eslint:recommended",
     // typescript
