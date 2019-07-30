@@ -1,8 +1,8 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+import path from "path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import { CleanWebpackPlugin } from "clean-webpack-plugin";
 
-module.exports = {
+export default {
   entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -31,7 +31,7 @@ module.exports = {
     alias: {
       "@features": path.resolve(__dirname, "src/features"),
       "@ui": path.resolve(__dirname, "src/ui"),
-      "@lib": path.resolve(__dirname, "src/lib"),
+      "@lib": path.resolve(__dirname, "src/lib")
     }
   },
   devServer: {
