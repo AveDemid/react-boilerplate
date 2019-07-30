@@ -1,9 +1,21 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+  },
   parser: "@typescript-eslint/parser",
   extends: [
-    "plugin:react/recommended",
+    //  eslint
+    "eslint:recommended",
+    // typescript
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    // react
+    "plugin:react/recommended",
+    // eslint-prettier-plugin
+    "plugin:prettier/recommended",
+    // eslint-config-prettier
+    "prettier",
+    "prettier/@typescript-eslint",
   ],
   parserOptions: {
     ecmaVesion: 2018,
@@ -20,7 +32,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
-  plugins: ["react-hooks"],
+  plugins: ["react-hooks", "prettier"],
   settings: {
     react: {
       version: "detect"
