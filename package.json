@@ -32,7 +32,7 @@
     "react-router-config": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "styled-components": "^4.3.2",
-    "styled-reboot": "^4.0.2"
+    "styled-reboot": "^4.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
