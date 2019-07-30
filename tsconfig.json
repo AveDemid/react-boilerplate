@@ -25,7 +25,7 @@
     /* Strict Type-Checking Options */
     "strict": true,
     "noImplicitAny": true,
-    // "strictNullChecks": true,              /* Enable strict null checks. */
+    "strictNullChecks": true,
     // "strictFunctionTypes": true,           /* Enable strict checking of function types. */
     // "strictBindCallApply": true,           /* Enable strict 'bind', 'call', and 'apply' methods on functions. */
     // "strictPropertyInitialization": true,  /* Enable strict checking of property initialization in classes. */
