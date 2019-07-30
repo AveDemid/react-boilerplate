@@ -27,7 +27,12 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx"]
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
+    alias: {
+      "@features": path.resolve(__dirname, "src/features"),
+      "@ui": path.resolve(__dirname, "src/ui"),
+      "@lib": path.resolve(__dirname, "src/lib"),
+    }
   },
   devServer: {
     historyApiFallback: true
