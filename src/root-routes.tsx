@@ -13,4 +13,4 @@ const routes = [
   }
 ];
 
-export const rootRoutes = () => renderRoutes(routes);
+export const RootRoutes = () => <>{renderRoutes(routes)}</>;

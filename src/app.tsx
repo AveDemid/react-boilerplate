@@ -1,10 +1,10 @@
 import React from "react";
 import { GlobalStyles } from "./global-styles";
-import { rootRoutes } from "./root-routes";
+import { RootRoutes } from "./root-routes";
 
 export const App = () => (
   <>
     <GlobalStyles />
-    {rootRoutes()}
+    <RootRoutes />
   </>
 );
