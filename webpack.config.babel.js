@@ -1,6 +1,7 @@
 import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import { CheckerPlugin } from "awesome-typescript-loader";
 
 export default {
   entry: "./src/index.tsx",
@@ -17,7 +18,7 @@ export default {
             loader: "babel-loader"
           },
           {
-            loader: "ts-loader"
+            loader: "awesome-typescript-loader"
           },
           {
             loader: "eslint-loader"
@@ -41,6 +42,7 @@ export default {
     new HtmlWebpackPlugin({
       template: "./src/index.html"
     }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new CheckerPlugin()
   ]
 };
