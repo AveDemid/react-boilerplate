@@ -31,7 +31,7 @@
     "react-dom": "^16.9.0",
     "react-router-config": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "styled-components": "^4.3.2",
+    "styled-components": "^4.4.0",
     "styled-reboot": "^4.0.3"
   },
   "devDependencies": {
@@ -40,26 +40,26 @@
     "@babel/register": "^7.6.0",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
-    "@types/react-router-config": "^5.0.0",
+    "@types/react-router-config": "^5.0.1",
     "@types/react-router-dom": "^4.3.5",
     "@types/styled-components": "^4.1.19",
-    "@typescript-eslint/eslint-plugin": "^2.2.0",
-    "@typescript-eslint/parser": "^2.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "core-js": "^3.2.1",
-    "eslint": "^6.3.0",
+    "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-loader": "^3.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "html-webpack-plugin": "^4.0.0-beta.8",
     "prettier": "^1.18.2",
     "typescript": "^3.6.3",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
   }
 }
