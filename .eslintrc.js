@@ -26,7 +26,7 @@ module.exports = {
     "react/display-name": "off",
     // TypeScript
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/indent": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     // React hooks
     "react-hooks/rules-of-hooks": "error",
