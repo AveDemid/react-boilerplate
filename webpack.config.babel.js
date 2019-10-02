@@ -1,18 +1,19 @@
 import path from "path";
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import { CheckerPlugin } from "awesome-typescript-loader";
 
 export default {
   entry: "./src/index.tsx",
+  mode: "development",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "bundle_[hash].min.js"
+    path: path.resolve(__dirname, "lib"),
+    filename: "react-code-field.js",
+    libraryTarget: "commonjs2"
   },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
+        exclude: /node_modules/,
         use: [
           {
             loader: "babel-loader"
@@ -27,23 +28,5 @@ export default {
       }
     ]
   },
-  resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx"],
-    alias: {
-      "@features": path.resolve(__dirname, "src/features"),
-      "@ui": path.resolve(__dirname, "src/ui"),
-      "@lib": path.resolve(__dirname, "src/lib"),
-      "@pages": path.resolve(__dirname, "src/pages")
-    }
-  },
-  devServer: {
-    historyApiFallback: true
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/index.html"
-    }),
-    new CleanWebpackPlugin(),
-    new CheckerPlugin()
-  ]
+  plugins: [new CheckerPlugin()]
 };
